@@ -1,0 +1,33 @@
+.container {
+//    width: 100%;
+//    якщо conteiner ставимо на div тоді не ставимо width 100%, тому що div це блок він має сам 100% ширини.
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+
+@media screen and (min-width: 480px) {
+   .container {
+    width: 472px;
+    // ширина мобільного контенту + padding з desktop
+    margin-left: auto;
+    margin-right: auto;
+   } 
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+     width: 736px;
+    //   ширина планшетного контенту + padding з desktop
+    } 
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+     width: 1200px;
+    } 
+}        
+// ---------------------------------------------
+// .header_color {
+//     background-color: #84A178;
+// }    
