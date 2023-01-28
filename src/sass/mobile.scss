@@ -1,0 +1,19 @@
+@media screen and (min-width: 480px) {
+    .header_color {
+             background-color: #84A178;
+         } 
+         .header_nav {
+            display: flex;
+            justify-content: space-between;  
+         } 
+         .nav-list {
+            display: flex;
+            list-style: none;
+            gap: 28px;
+            padding-left: 310px;
+            padding-right: 205px;
+         }
+         .header_decoration {
+            text-decoration: none;
+         }
+}
